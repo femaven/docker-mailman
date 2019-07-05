@@ -35,6 +35,7 @@ services:
     environment:
     - DATABASE_TYPE=postgres
     - DATABASE_URL=postgres://mailman:mailmanpass@database/mailmandb
+    - SECRET_KEY=0a04a8cd-b4cd-44a6-9862-562bc14c4cb9
     - HYPERKITTY_API_KEY=someapikey
     networks:
       mailman:
